@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Grivelet · Engineering &amp; Management Student</title>
+    <meta name="description" content="Portfolio of Nicolas Grivelet, engineering and management student at ESILV & EMLV Paris. Passionate about software architecture, systems automation, data & AI.">
+    <link rel="icon" type="image/svg+xml" href="Logo/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Logo containment & crisp display */
+        .timeline-img img, .cert-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 4px;
+        }
+        .cred-card-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-panel preloader-panel--top"></div>
+        <div class="preloader-panel preloader-panel--bottom"></div>
+        <div class="preloader-logo">
+            <span class="preloader-name">Nicolas Grivelet</span><em class="preloader-dot">.</em>
+        </div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-ring"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Scroll progress bar -->
+    <div class="nav-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#about" class="nav-logo">Nicolas Grivelet<em>.</em></a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <a href="#contact" class="nav-cta"><span>Get in touch</span></a>
+            </div>
+
+            <button class="nav-burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav-mobile">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-orb"></div>
+            <div class="hero-orb-2"></div>
+        </div>
+
+        <div class="hero-wrap">
+            <div class="hero-main">
+            <div class="hero-top">
+                <div class="hero-status-pill">
+                    <span class="hero-status-dot"></span>
+                    <span>Seeking 4-Month Internship / CDD · May 31 — Oct 5, 2027</span>
+                </div>
+                <br>
+                <span class="hero-subtitle">Student @ESILV &amp; EMLV Paris · Double Degree · Proteus</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="word">Bridging</span>
+                <span class="word accent">engineering,</span>
+                <span class="word">systems</span>
+                <span class="word">&amp;</span>
+                <span class="word accent">finance</span>
+            </h1>
+
+            <p class="hero-lead">
+                Engineering student in the Dual Degree program at ESILV &amp; EMLV Paris. Passionate about software architecture, 3D reconstruction, workflow automation, and quantitative models.
+            </p>
+
+            <div class="hero-meta">
+                <div class="hero-meta-item"><i class="fas fa-location-dot"></i><span>Paris, <strong>France</strong></span></div>
+                <div class="hero-meta-item"><i class="fas fa-graduation-cap"></i><span><strong>ESILV / EMLV</strong> · Class of 2030</span></div>
+                <div class="hero-meta-item"><i class="fas fa-language"></i><span><strong>FR</strong> · <strong>EN (C1)</strong></span></div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary"><span>Get in Touch</span> <span class="btn-arrow">→</span></a>
+                <a href="https://www.linkedin.com/in/nicolas-grivelet" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            </div>
+
+            <aside class="hero-aside" aria-hidden="true">
+                <div class="cred-card cred-card--1">
+                    <div class="cred-card-logo"><img src="Logo/alten.svg" alt="ALTEN"></div>
+                    <div class="cred-card-body">
+                        <span class="cred-card-label">Engineering Project</span>
+                        <span class="cred-card-title">ALTEN × 3D Mapping</span>
+                        <span class="cred-card-meta">Technical Lead · Proteus</span>
+                    </div>
+                </div>
+
+                <div class="cred-card cred-card--2">
+                    <div class="cred-card-logo"><img src="Logo/amf-pure.svg" alt="AMF"></div>
+                    <div class="cred-card-body">
+                        <span class="cred-card-label">Financial Markets</span>
+                        <span class="cred-card-title">AMF Certified</span>
+                        <span class="cred-card-meta">Autorité des Marchés Financiers · 2026</span>
+                    </div>
+                </div>
+
+                <div class="cred-card cred-card--3">
+                    <div class="cred-card-logo"><img src="Logo/cambridge-crest.svg" alt="Cambridge English"></div>
+                    <div class="cred-card-body">
+                        <span class="cred-card-label">International English</span>
+                        <span class="cred-card-title">Cambridge English C1</span>
+                        <span class="cred-card-meta">CAE Certified · Advanced Level</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <div class="hero-scroll">
+            Scroll
+            <span class="line"></span>
+        </div>
+    </header>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <div class="marquee-half">
+                <span class="marquee-item"><img src="Logo/esilv.png" alt="" style="height: 18px; margin-right: 8px;"> ESILV Paris</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/alten.svg" alt="" style="height: 14px; margin-right: 8px;"> ALTEN</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/enc-blomet.png" alt="" style="height: 18px; margin-right: 8px;"> ENC Blomet</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/amf-pure.svg" alt="" style="height: 16px; margin-right: 8px;"> AMF Certified</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/cambridge-crest.svg" alt="" style="height: 18px; margin-right: 8px;"> Cambridge CAE</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/credit-agricole.svg" alt="" style="height: 16px; margin-right: 8px;"> Crédit Agricole</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/habitat-pure-house.png" alt="" style="height: 18px; margin-right: 8px;"> Habitat &amp; Humanisme</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/foyer-grenelle-emblem.png" alt="" style="height: 18px; margin-right: 8px;"> Foyer de Grenelle</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/proteus.png" alt="" style="height: 18px; margin-right: 8px;"> Proteus DeVinci</span>
+                <span class="marquee-item sep">✦</span>
+            </div>
+            <div class="marquee-half" aria-hidden="true">
+                <span class="marquee-item"><img src="Logo/esilv.png" alt="" style="height: 18px; margin-right: 8px;"> ESILV Paris</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/alten.svg" alt="" style="height: 14px; margin-right: 8px;"> ALTEN</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/enc-blomet.png" alt="" style="height: 18px; margin-right: 8px;"> ENC Blomet</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/amf-pure.svg" alt="" style="height: 16px; margin-right: 8px;"> AMF Certified</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/cambridge-crest.svg" alt="" style="height: 18px; margin-right: 8px;"> Cambridge CAE</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/credit-agricole.svg" alt="" style="height: 16px; margin-right: 8px;"> Crédit Agricole</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/habitat-pure-house.png" alt="" style="height: 18px; margin-right: 8px;"> Habitat &amp; Humanisme</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/foyer-grenelle-emblem.png" alt="" style="height: 18px; margin-right: 8px;"> Foyer de Grenelle</span>
+                <span class="marquee-item sep">✦</span>
+                <span class="marquee-item"><img src="Logo/proteus.png" alt="" style="height: 18px; margin-right: 8px;"> Proteus DeVinci</span>
+                <span class="marquee-item sep">✦</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <span class="floating-shape floating-shape--1" data-parallax="0.12" aria-hidden="true"></span>
+        <span class="floating-shape floating-shape--2" data-parallax="-0.08" aria-hidden="true"></span>
+        <div class="container">
+            <div class="section-label reveal"><span>01</span> About</div>
+
+            <div class="about-grid">
+                <div class="about-photo reveal">
+                    <img src="Illustrations/Profile.jpg" alt="Nicolas Grivelet">
+                    <div class="about-photo-tag">
+                        <span>Nicolas Grivelet</span>
+                        <span>MMXXVI</span>
+                    </div>
+                </div>
+
+                <div class="about-body reveal">
+                    <h2>Engineering precision, <em>analytical rigor</em> and <em>system design</em>.</h2>
+                    <p>
+                        Dual-degree student in <strong>Engineering &amp; Management</strong> at <strong>ESILV &amp; EMLV Paris (La Défense)</strong>, combining intensive scientific foundations in computer science and applied mathematics with corporate strategy and financial markets analysis.
+                    </p>
+                    <p>
+                        Currently leading technical developments on an industrial partnership project with <strong>ALTEN</strong> via the <strong>Proteus</strong> association, focusing on fast 3D watertight surface reconstruction from point clouds under rigorous latency constraints.
+                    </p>
+                    <p>
+                        Committed to social impact through data automation and digital inclusion with <strong>Habitat &amp; Humanisme</strong>, where I developed automated data processing pipelines for national property records verification.
+                    </p>
+                    <p>
+                        Certified by the French Financial Markets Authority (<strong>AMF</strong>) and certified fluent in English (<strong>Cambridge CAE C1</strong>), I thrive at the crossroads of computational engineering, software architecture, and quantitative problem-solving.
+                    </p>
+                </div>
+            </div>
+
+            <div class="stats reveal">
+                <div class="stat">
+                    <h3 class="stat-num" data-count="5">0</h3>
+                    <span class="stat-label">Years Dual Curriculum</span>
+                </div>
+                <div class="stat">
+                    <h3 class="stat-num" data-count="5">0</h3>
+                    <span class="stat-label">Engineers in ALTEN Team</span>
+                </div>
+                <div class="stat">
+                    <h3 class="stat-num" data-count="2">0</h3>
+                    <span class="stat-label">Top Degrees (ESILV + EMLV)</span>
+                </div>
+            </div>
+
+            <div class="skills-cloud reveal stagger">
+                <span class="skill-pill" data-tooltip="Algorithmic problem-solving, computational geometry, data structures."><span>Algorithms</span></span>
+                <span class="skill-pill" data-tooltip="Data manipulation, automated ETL, scientific computation and scripting."><span>Python</span></span>
+                <span class="skill-pill" data-tooltip="Object-oriented programming, performance optimization, graph algorithms."><span>C#</span></span>
+                <span class="skill-pill" data-tooltip="Relational database design, query optimization, analytics."><span>SQL</span></span>
+                <span class="skill-pill" data-tooltip="Poisson reconstruction, Ball-Pivoting, Alpha Shapes for mesh generation."><span>3D Reconstruction</span></span>
+                <span class="skill-pill" data-tooltip="Official French Financial Markets certification: regulations, derivatives, risk."><span>AMF Certified</span></span>
+                <span class="skill-pill" data-tooltip="Linear algebra, series, statistical mechanics and probability models."><span>Applied Mathematics</span></span>
+                <span class="skill-pill" data-tooltip="Browser automation, document parsing and pipeline reliability."><span>Automation &amp; Scraping</span></span>
+                <span class="skill-pill" data-tooltip="Agile sprints, cross-functional delivery, technical leadership."><span>Project Management</span></span>
+                <span class="skill-pill" data-tooltip="Corporate finance, cost accounting, business legal framework."><span>Corporate Finance</span></span>
+                <span class="skill-pill" data-tooltip="Native French speaker & C1 Advanced English certified. Full professional proficiency."><span>Bilingual FR/EN (C1)</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-label reveal"><span>02</span> Experience</div>
+            <h2 class="section-title reveal">Engineering impact through <em>industry projects</em> and <em>field automation</em>.</h2>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <!-- ALTEN / Proteus -->
+                <div class="timeline-item reveal">
+                    <a href="https://www.alten.com/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/alten.svg" alt="ALTEN">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Technical Project Lead — 3D Surface Reconstruction</h3>
+                        <span class="company"><a href="https://www.alten.com/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-color: rgba(11,18,32,0.2);">ALTEN</a> Industrial Partnership × Proteus · Applied Engineering</span>
+                        <span class="date">Sep 2026 — Present</span>
+                        <span class="location">Paris La Défense, France · Hybrid</span>
+                        <p class="description">
+                            Directing the technical pipeline for rapid 3D watertight surface reconstruction from partial point clouds, complying with industrial engineering specifications defined by ALTEN (&lt; 5s computation time, watertight manifold mesh).
+                        </p>
+                        <ul>
+                            <li>Benchmarked and evaluated geometric algorithm families (Screened Poisson Reconstruction, Ball-Pivoting Algorithm, Alpha Shapes);</li>
+                            <li>Engineered the modular processing and filtering pipeline in Python and C#;</li>
+                            <li>Led a team of 5 engineering students, facilitating sprint retrospectives and regular technical exchanges with ALTEN senior engineers;</li>
+                            <li>Ensured full compliance with industrial milestones across all technical project deliverables.</li>
+                        </ul>
+                        <p class="skills-text"><strong>Skills:</strong> C# · Python · 3D Reconstruction · Computational Geometry · Point Cloud Processing · Project Management · Agile Methodologies · Team Leadership</p>
+                    </div>
+                </div>
+
+                <!-- Habitat & Humanisme -->
+                <div class="timeline-item reveal">
+                    <a href="https://www.habitat-humanisme.org/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/habitat-pure-house.png" alt="Habitat &amp; Humanisme">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Data &amp; Automation Volunteer</h3>
+                        <span class="company"><a href="https://www.habitat-humanisme.org/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-color: rgba(11,18,32,0.2);">Habitat et Humanisme</a> · Social Housing &amp; Inclusion</span>
+                        <span class="date">Apr 2026 — Jun 2026</span>
+                        <span class="location">Paris, France · On-site</span>
+                        <p class="description">
+                            Designed and deployed resilient automated document processing workflows to audit and consolidate national property records for a social housing non-profit.
+                        </p>
+                        <ul>
+                            <li>Developed automated extraction scripts using Python (Playwright and EasyOCR) to parse tax identification data (NIF) from incoming documents;</li>
+                            <li>Executed systematic data reconciliation, deduplication, and anomaly detection over a database of &gt; 500 housing units;</li>
+                            <li>Significantly reduced clerical processing overhead and accelerated national owner follow-up campaigns.</li>
+                        </ul>
+                        <p class="skills-text"><strong>Skills:</strong> Python · Playwright · OCR (EasyOCR) · Data Auditing · Data Cleaning · Automation · Process Improvement</p>
+                    </div>
+                </div>
+
+                <!-- Foyer de Grenelle -->
+                <div class="timeline-item reveal">
+                    <a href="https://foyerdegrenelle.org/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/foyer-grenelle-emblem.png" alt="Foyer de Grenelle">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Digital Inclusion &amp; Social Support Intern</h3>
+                        <span class="company"><a href="https://foyerdegrenelle.org/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-color: rgba(11,18,32,0.2);">Foyer de Grenelle</a> · Social Centre &amp; Civic Engagement</span>
+                        <span class="date">Jun 2026</span>
+                        <span class="location">Paris, France · On-site</span>
+                        <ul>
+                            <li>Led interactive digital training workshops and computer/smartphone troubleshooting sessions for beneficiaries facing digital exclusion;</li>
+                            <li>Assisted individuals with essential online public administration services and domiciliation formalities;</li>
+                            <li>Co-managed daily community reception, promoting solidarity and digital empowerment.</li>
+                        </ul>
+                        <p class="skills-text"><strong>Skills:</strong> Digital Inclusion · Tech Support · Communication · Empathy · Public Administration Procedures</p>
+                    </div>
+                </div>
+
+                <!-- Crédit Agricole -->
+                <div class="timeline-item reveal">
+                    <a href="https://www.credit-agricole.fr/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/credit-agricole.svg" alt="Crédit Agricole">
+                    </a>
+                    <div class="timeline-content">
+                        <h3>Banking IT Discovery Intern</h3>
+                        <span class="company"><a href="https://www.credit-agricole.fr/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-color: rgba(11,18,32,0.2);">Crédit Agricole</a> · Retail Banking IT Department</span>
+                        <span class="date">Jun 2023</span>
+                        <span class="location">Paris, France · On-site</span>
+                        <ul>
+                            <li>Explored corporate banking IT architectures, security protocols, and financial system workflows;</li>
+                            <li>Introduced to functional UX/UI wireframing and banking system process mapping with draw.io.</li>
+                        </ul>
+                        <p class="skills-text"><strong>Skills:</strong> Banking IT · Information Systems · Wireframing · Process Modeling</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <div class="section-label reveal"><span>03</span> Education</div>
+            <h2 class="section-title reveal">Dual excellence: <em>engineering</em> and <em>management</em>.</h2>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item reveal">
+                    <a href="https://www.esilv.fr/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/esilv.png" alt="ESILV Paris">
+                    </a>
+                    <div class="timeline-content">
+                        <h3><a href="https://www.esilv.fr/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">ESILV</a> &amp; <a href="https://www.emlv.fr/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">EMLV Paris</a> — Pôle Léonard de Vinci</h3>
+                        <span class="company">Dual Degree: Master of Engineering (MEng) &amp; Master in Management</span>
+                        <span class="date">Sep 2025 — Sep 2030 (Class of 2030)</span>
+                        <p class="description"><strong>Campus:</strong> Paris La Défense · <strong>Current level:</strong> 2nd year Integrated Preparatory Cycle (A2)</p>
+                        <div class="edu-desc">
+                            <p><strong>Integrated Dual-Degree Curriculum (5 Years):</strong></p>
+                            <p><strong>Scientific &amp; Technical Foundation:</strong> Advanced mathematics (linear algebra, multidimensional analysis, probability & statistics), physics, thermodynamics, computer science (object-oriented programming, algorithms, data structures, SQL databases).</p>
+                            <p><strong>Management &amp; Finance Core:</strong> Financial accounting, cost control, corporate finance, market regulations, contract law, strategy, and team management.</p>
+                            <p><strong>Active Associations:</strong> Proteus (Robotics &amp; Applied Engineering), Vinci Investments (Financial Markets), De Vinci Blockchain.</p>
+                        </div>
+                        <p class="skills-text"><strong>Skills:</strong> Engineering Mathematics · Algorithms · C# · Python · SQL · Financial Analysis · Project Management · Strategic Management</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <a href="https://www.blomet-enc.fr/" target="_blank" rel="noopener" class="timeline-img timeline-img--fit">
+                        <img src="Logo/enc-blomet.png" alt="ENC Blomet">
+                    </a>
+                    <div class="timeline-content">
+                        <h3><a href="https://www.blomet-enc.fr/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">ENC Blomet</a> — École Normale Catholique (Paris 15e)</h3>
+                        <span class="company">French Baccalaureate, General Studies · Mathematics &amp; Physics-Chemistry</span>
+                        <span class="date">Graduated Jul 2025</span>
+                        <p class="description"><strong>Honors:</strong> Mention Très Bien (Highest Honors)</p>
+                        <div class="edu-desc">
+                            <p>Rigorous secondary education and intensive scientific foundation at ENC Blomet, focusing on pure mathematics, experimental physics-chemistry, and analytical reasoning.</p>
+                        </div>
+                        <p class="skills-text"><strong>Skills:</strong> Pure Mathematics · Physics · Chemistry · Critical Thinking · Scientific Rigor · Team Collaboration</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <div class="section-label reveal"><span>04</span> Licenses &amp; Certifications</div>
+            <h2 class="section-title reveal">Official credentials &amp; <em>accreditations</em>.</h2>
+
+            <div class="cert-category reveal">
+                <h3><i class="fas fa-scale-balanced"></i> Financial Markets &amp; Regulation</h3>
+                <div class="cert-grid reveal stagger">
+                    <a href="https://www.amf-france.org/" target="_blank" rel="noopener" class="cert-item cert-item--has-logo" style="text-decoration: none; color: inherit;">
+                        <div class="cert-logo"><img src="Logo/amf-pure.svg" alt="AMF"></div>
+                        <div class="cert-body">
+                            <h4>AMF Professional Certification</h4>
+                            <p class="issuer">Autorité des Marchés Financiers (France)</p>
+                            <p>Certified March 2026 · Official Regulatory Accreditation</p>
+                            <p class="skills-text"><strong>Competencies:</strong> European &amp; French Market Regulations · Financial Instruments &amp; Derivatives · Risk Management · Anti-Money Laundering · Asset Valuation</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cert-category reveal">
+                <h3><i class="fas fa-language"></i> Language &amp; International</h3>
+                <div class="cert-grid reveal stagger">
+                    <a href="https://www.cambridgeenglish.org/exams-and-tests/advanced/" target="_blank" rel="noopener" class="cert-item cert-item--has-logo" style="text-decoration: none; color: inherit;">
+                        <div class="cert-logo"><img src="Logo/cambridge-crest.svg" alt="Cambridge English"></div>
+                        <div class="cert-body">
+                            <h4>Cambridge English C1 Advanced (CAE)</h4>
+                            <p class="issuer">Cambridge University Press &amp; Assessment</p>
+                            <p>Certified March 2025 · Level C1 CEFR (Autonomous &amp; Professional)</p>
+                            <p class="skills-text"><strong>Competencies:</strong> Professional Fluency · Complex Technical Drafting · International Academic &amp; Business Communication</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cert-category reveal">
+                <h3><i class="fas fa-medal"></i> Academic Honors</h3>
+                <div class="cert-grid reveal stagger">
+                    <a href="https://www.education.gouv.fr/" target="_blank" rel="noopener" class="cert-item cert-item--has-logo" style="text-decoration: none; color: inherit;">
+                        <div class="cert-logo"><img src="Logo/republique-francaise.svg" alt="République Française — Ministère de l'Éducation Nationale"></div>
+                        <div class="cert-body">
+                            <h4>Baccalauréat Général — Mention Très Bien</h4>
+                            <p class="issuer">Ministère de l'Éducation Nationale</p>
+                            <p>Awarded July 2025 · Mathematics &amp; Physics-Chemistry</p>
+                            <p class="skills-text"><strong>Competencies:</strong> Scientific Excellence · Advanced Problem Solving</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square link-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-label reveal"><span>05</span> Projects</div>
+            <h2 class="section-title reveal">Featured <em>Engineering Projects</em>.</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-link reveal">
+                    <div class="project-card">
+                        <div class="project-image" style="background: #001845; position: relative; overflow: hidden; min-height: 220px;">
+                            <img src="Illustrations/3d-mapping-factory.jpg" alt="ALTEN × Proteus 3D Mapping Smart Factory" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s ease;">
+                            <div style="position: absolute; top: 16px; left: 16px; background: rgba(11, 18, 32, 0.75); backdrop-filter: blur(8px); padding: 6px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.1);">
+                                <img src="Logo/alten.svg" alt="ALTEN" style="height: 14px; filter: brightness(0) invert(1); vertical-align: middle;">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="role">Sep 2026 — Present</p>
+                            <h3>ALTEN × Proteus — 3D Watertight Surface Reconstruction</h3>
+                            <div class="project-association">
+                                <img src="Logo/proteus.png" alt="Proteus" style="height: 18px; width: 18px; object-fit: contain; margin-right: 6px; border-radius: 4px;">
+                                <span>Associated with Proteus (ESILV)</span>
+                            </div>
+                            <div class="project-desc">
+                                <p>Technical project conducted in direct industrial collaboration with ALTEN engineers. Focused on real-time surface reconstruction from noisy 3D point cloud scans.</p>
+                                <p>Benchmarked Poisson reconstruction, Ball-Pivoting, and Alpha Shapes to achieve high geometric fidelity while ensuring watertight manifold topology in under 5 seconds.</p>
+                            </div>
+                            <p class="skills-text"><strong>Skills:</strong> C# · Python · 3D Mesh Generation · Computational Geometry · Performance Optimization · Technical Leadership</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-link reveal">
+                    <div class="project-card">
+                        <div class="project-image" style="background: #0B1220; position: relative; overflow: hidden; min-height: 220px;">
+                            <img src="Illustrations/pix1-expandis-showcase.jpg" alt="ESILV PIX1 EXPANDIS Mechanical System" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; transition: transform 0.8s ease;">
+                        </div>
+                        <div class="project-info">
+                            <p class="role">Sep 2025 — Jun 2026</p>
+                            <h3>ESILV PIX1 Project — EXPANDIS (Telescopic Kinematic System)</h3>
+                            <div class="project-association">
+                                <img src="Logo/esilv.png" alt="ESILV" style="height: 18px; width: 18px; object-fit: contain; margin-right: 6px;">
+                                <span>Associated with ESILV Paris · Showroom 2026</span>
+                            </div>
+                            <div class="project-desc">
+                                <p>Mechanical engineering project within Équipe 118: design and manufacturing of <strong>EXPANDIS</strong>, an autonomous 3-DoF kinematic mechanical system (azimuth rotation, worm-gear elevation, and telescopic extension).</p>
+                                <p>Conducted kinematic &amp; static pre-sizing calculations (RDM), CAD modeling (SolidWorks / Fusion 360), additive manufacturing (PLA bioplastic &amp; MDF), and ratchet locking mechanism design.</p>
+                            </div>
+                            <p class="skills-text"><strong>Skills:</strong> Mechanical Engineering · Kinematics · SolidWorks · CAD Modeling · Prototyping · RDM (Strength of Materials) · Team Collaboration</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <span class="floating-shape floating-shape--1 floating-shape--dark" data-parallax="0.15" aria-hidden="true"></span>
+        <span class="floating-shape floating-shape--2 floating-shape--dark" data-parallax="-0.1" aria-hidden="true"></span>
+        <div class="container">
+            <div class="section-label reveal"><span>06</span> Contact</div>
+            <h2 class="section-title reveal">Let's <em>connect</em>.</h2>
+
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Get in touch</h3>
+                    <p>Open for opportunities in Engineering, Systems Automation, Data/AI and Quantitative Finance. Seeking internship or CDD opportunities (May 31 — Oct 5, 2027).</p>
+
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/nicolas-grivelet" target="_blank" rel="noopener" class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                            <i class="fas fa-arrow-right arrow"></i>
+                        </a>
+
+                        <a href="mailto:nicolas.grivelet@edu.devinci.fr" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>nicolas.grivelet@edu.devinci.fr</span>
+                            <i class="fas fa-arrow-right arrow"></i>
+                        </a>
+
+                        <div class="contact-link" style="cursor: default;">
+                            <i class="fas fa-location-dot"></i>
+                            <span>Paris, France · Full Mobility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendar-container reveal" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: rgba(255,255,255,0.03); border: 1px solid var(--border-2); border-radius: 16px; padding: 40px; text-align: center;">
+                    <i class="fas fa-paper-plane" style="font-size: 48px; color: var(--blue-2); margin-bottom: 20px;"></i>
+                    <h3 style="font-size: 24px; margin-bottom: 12px; color: #fff;">Direct Inquiry</h3>
+                    <p style="color: var(--text-3); max-width: 380px; margin-bottom: 24px;">Feel free to drop an email or reach out on LinkedIn for technical discussions, project proposals, or interviews.</p>
+                    <a href="mailto:nicolas.grivelet@edu.devinci.fr" class="btn btn-primary"><span>Send an Email</span> <span class="btn-arrow">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>Nicolas Grivelet<em>.</em></h2>
+                <p>Engineering the intersection of code, systems and quantitative models.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nicolas-grivelet" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:nicolas.grivelet@edu.devinci.fr" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 Nicolas Grivelet. All Rights Reserved.</p>
+            <p>Designed &amp; built with <span class="heart">♥</span> in Paris</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
